@@ -13,12 +13,12 @@ public class AppTest {
 
 	@Test
 	public void testShouldBePassed() {
-		assertTrue(false);
+		assertTrue(true);
 	}
 
 	@Test
 	public void testShouldBeFailed() {
-		assertTrue(true);
+		assertTrue(false);
 	}
 
 	@Ignore("Not implemented yet")
